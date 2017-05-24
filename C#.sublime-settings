@@ -1,0 +1,10 @@
+{
+	"extensions": [ "cs" ],
+    "auto_complete": true,
+    "auto_complete_selector": "source - comment",
+    "auto_complete_triggers": [ {"selector": "source.cs", "characters": ".<"} ],
+    "omnisharp_onsave_codecheck": false,
+    "omnisharp_onsave_showwarningwindows":false,
+    "omnisharp_onsave_showerrorwindows":false,
+     "omnisharp_show_override_completion": true,
+ }

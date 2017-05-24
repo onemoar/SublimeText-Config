@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+name: cl Output
+hidden: true
+scope: source.build_output
+contexts:
+  main:
+    - match: '(.*)\(([0-9]+)\):'
+      scope: keyword.control.import.c++
+    - match: '\b(fatal error) C[0-9]+:'
+      scope: punctuation.separator.continuation
+    - match: '\b(error) C[0-9]+:'
+      scope: punctuation.separator.continuation
+    - match: '\b(warning) C[0-9]+:'
+      scope: meta.preprocessor.c++
+    - match: '\b(note):'
+      scope: string.quoted.double.c
+    - match: '^\[.+\]$'
+      scope: comment

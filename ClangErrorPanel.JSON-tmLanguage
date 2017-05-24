@@ -1,0 +1,36 @@
+{
+    "name": "SublimeClangErrorPanel", 
+    "uuid": "6e3ddaba-4ad6-4d1b-a7a0-3908b0796e19", 
+    "fileTypes": [], 
+    "patterns": [
+        // {
+        //     "name": "string.text.warning", 
+        //     "match": "^.*warning:.*$", 
+        //     "comment": "Warnings"
+        // }, 
+        // {
+        //     "name": "keyword.control.error", 
+        //     "match": "^.*error:.*$", 
+        //     "comment": "Errors"
+        // }, 
+        {
+            "name": "string.text.sublimeclang.issue", 
+            "match": "^.*(warning:).*$|^.*(error:).*$", 
+            "captures": {
+                  "2": { "name": "keyword.control.error" }
+               },
+            "comment": "Warnings"
+        }, 
+        {
+            "name": "keyword.control.failedlabel", 
+            "match": "Build failed", 
+            "comment": "Errors"
+        }, 
+        {
+            "name": "entity.name.function.c", 
+            "match": "Success!", 
+            "comment": "Success"
+        }
+    ], 
+    "scopeName": "text.sublimeclang"
+}

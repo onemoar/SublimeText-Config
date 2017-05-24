@@ -1,0 +1,16 @@
+{
+	"osx": {
+		"cmd": ["$project_path/build.sh"],
+		"file_regex": "^(..[^:\n]*):([0-9]+):?([0-9]+)?:? (.*)$",
+		"syntax": "Packages/Makefile/Make Output.sublime-syntax",
+		"working_dir": "$project_path",
+		
+	},
+	"windows": {
+		"shell_cmd": "${project_path}/build.bat",
+		// "file_regex": "^(..[^:\n]*):([0-9]+):?([0-9]+)?:? (.*)$",
+		"file_regex": "(.*)\\(([0-9]+)\\):.*",
+		"syntax": "Packages/User/cl_output.sublime-syntax",
+		"working_dir": "$project_path",
+	}
+}

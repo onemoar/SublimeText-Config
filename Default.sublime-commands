@@ -1,0 +1,6 @@
+[
+	{
+	    "caption": "Tmpl: Unity3D sublime-project", "command": "sublime_tmpl",
+	    "args": {"type": "unityprj"}
+	}
+]

@@ -1,7 +1,6 @@
 {
 	"auto_complete_commit_on_tab": false,
 	"color_scheme": "Packages/User/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -12,5 +11,7 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
 	"show_errors_inline": false
 }

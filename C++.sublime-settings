@@ -1,0 +1,18 @@
+{
+	"extensions":
+	[
+		"h",
+		"c"
+	],
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".>:",
+			"selector": "source.c++ - string - comment - constant.numeric"
+		},
+		{
+			"characters": ".>:",
+			"selector": "source.c - string - comment - constant.numeric"
+		}
+	],
+}
